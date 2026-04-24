@@ -1,0 +1,1 @@
+﻿app/practice/page.tsx(35,31): error TS2571: Object is of type 'unknown'.
