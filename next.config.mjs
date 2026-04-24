@@ -2,9 +2,11 @@
 const nextConfig = {
     webpack: (config, { isServer }) => {
         // Fix for alasql react-native errors
-        config.resolve.alias = {
-            ...config.resolve.alias,
-            alasql: 'alasql/dist/alasql.min.js',
+        config.externals = {
+            ...config.externals,
+            'react-native': 'undefined',
+            'react-native-fs': 'undefined',
+            'react-native-fetch-blob': 'undefined',
         };
 
         config.resolve.fallback = {
