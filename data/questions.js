@@ -16040,5 +16040,655 @@ export const quizData = [
         ],
         "correctIndex": 2,
         "explanation": ""
+    },
+    {
+        "id": 2000,
+        "framework": "QA",
+        "question": "What is Software Testing?",
+        "options": [
+            "Testing shows the presence of defects; Exhaustive testing is impossible; Early testing saves time and cost; Defects cluster together; Beware of the pesticide paradox; Testing is context dependent; Absence-of-errors is a fallacy.",
+            "Risk-Based Testing prioritizes testing efforts based on business and technical risks.",
+            "UAT is testing performed by business users to confirm the software meets business needs.",
+            "Software testing is the process of verifying and validating that an application meets its requirements and identifying defects before release."
+        ],
+        "correctIndex": 3,
+        "explanation": ""
+    },
+    {
+        "id": 2001,
+        "framework": "QA",
+        "question": "What is the difference between Verification and Validation?",
+        "options": [
+            "Repeated execution of the same tests finds fewer new defects over time, so test cases should be reviewed and updated regularly.",
+            "Verification checks whether the product is built correctly using reviews and inspections. Validation checks whether the right product is built by executing tests.",
+            "Yes. A company logo displayed incorrectly on the homepage may have low severity but high business priority.",
+            "Yes. For example, a critical issue on an admin-only page may have high severity but low business priority."
+        ],
+        "correctIndex": 1,
+        "explanation": ""
+    },
+    {
+        "id": 2002,
+        "framework": "QA",
+        "question": "What is Quality Assurance (QA)?",
+        "options": [
+            "QA focuses on improving development processes to prevent defects before they occur.",
+            "Smoke Testing verifies that the critical functionality of a new build works before detailed testing begins.",
+            "Functional Testing verifies that the software performs according to business requirements.",
+            "Yes. A company logo displayed incorrectly on the homepage may have low severity but high business priority."
+        ],
+        "correctIndex": 0,
+        "explanation": ""
+    },
+    {
+        "id": 2003,
+        "framework": "QA",
+        "question": "What is Quality Control (QC)?",
+        "options": [
+            "A good bug report includes a clear title, environment, steps to reproduce, expected result, actual result, severity, priority, screenshots, and logs.",
+            "An RTM maps requirements to test cases to ensure complete test coverage.",
+            "QC focuses on identifying defects in the software product through testing activities.",
+            "Dynamic Testing evaluates software by executing the application."
+        ],
+        "correctIndex": 2,
+        "explanation": ""
+    },
+    {
+        "id": 2004,
+        "framework": "QA",
+        "question": "What is a defect?",
+        "options": [
+            "Exit Criteria define when testing activities can be completed.",
+            "A defect is a flaw in software that causes it to behave differently from the expected result.",
+            "Black Box Testing validates software functionality without knowledge of the internal code.",
+            "White Box Testing validates software based on knowledge of its internal implementation."
+        ],
+        "correctIndex": 1,
+        "explanation": ""
+    },
+    {
+        "id": 2005,
+        "framework": "QA",
+        "question": "What is the difference between Error, Defect, and Failure?",
+        "options": [
+            "Non-functional Testing evaluates performance, security, usability, reliability, scalability, and accessibility.",
+            "State Transition Testing verifies application behavior as it moves between different states.",
+            "An Error is a human mistake, a Defect is the flaw introduced into the software, and a Failure is the incorrect behavior observed during execution.",
+            "Smoke Testing verifies that the critical functionality of a new build works before detailed testing begins."
+        ],
+        "correctIndex": 2,
+        "explanation": ""
+    },
+    {
+        "id": 2006,
+        "framework": "QA",
+        "question": "What is the Software Development Life Cycle (SDLC)?",
+        "options": [
+            "A Test Scenario is a high-level testing objective. A Test Case contains detailed steps, test data, and expected results.",
+            "Decision Table Testing is used when multiple conditions determine different outcomes.",
+            "Repeated execution of the same tests finds fewer new defects over time, so test cases should be reviewed and updated regularly.",
+            "SDLC consists of Planning, Requirements, Design, Development, Testing, Deployment, and Maintenance."
+        ],
+        "correctIndex": 3,
+        "explanation": ""
+    },
+    {
+        "id": 2007,
+        "framework": "QA",
+        "question": "What is the Software Testing Life Cycle (STLC)?",
+        "options": [
+            "A Test Plan is project-specific, while a Test Strategy defines the organization's overall testing approach.",
+            "A good bug report includes a clear title, environment, steps to reproduce, expected result, actual result, severity, priority, screenshots, and logs.",
+            "Requirement Analysis, Test Planning, Test Design, Environment Setup, Test Execution, Defect Reporting, and Test Closure.",
+            "Priority determines how quickly a defect should be fixed."
+        ],
+        "correctIndex": 2,
+        "explanation": ""
+    },
+    {
+        "id": 2008,
+        "framework": "QA",
+        "question": "What is the difference between a Test Plan and a Test Strategy?",
+        "options": [
+            "A Test Plan is project-specific, while a Test Strategy defines the organization's overall testing approach.",
+            "Yes. For example, a critical issue on an admin-only page may have high severity but low business priority.",
+            "An Error is a human mistake, a Defect is the flaw introduced into the software, and a Failure is the incorrect behavior observed during execution.",
+            "Equivalence Partitioning divides input data into valid and invalid groups to reduce the number of test cases."
+        ],
+        "correctIndex": 0,
+        "explanation": ""
+    },
+    {
+        "id": 2009,
+        "framework": "QA",
+        "question": "What is the difference between a Test Scenario and a Test Case?",
+        "options": [
+            "Entry Criteria are the conditions that must be satisfied before testing can begin.",
+            "An Error is a human mistake, a Defect is the flaw introduced into the software, and a Failure is the incorrect behavior observed during execution.",
+            "Static Testing evaluates software without executing code, such as reviews and inspections.",
+            "A Test Scenario is a high-level testing objective. A Test Case contains detailed steps, test data, and expected results."
+        ],
+        "correctIndex": 3,
+        "explanation": ""
+    },
+    {
+        "id": 2010,
+        "framework": "QA",
+        "question": "What should a Test Case include?",
+        "options": [
+            "Entry Criteria are the conditions that must be satisfied before testing can begin.",
+            "Verification checks whether the product is built correctly using reviews and inspections. Validation checks whether the right product is built by executing tests.",
+            "QC focuses on identifying defects in the software product through testing activities.",
+            "Test Case ID, Description, Preconditions, Test Steps, Test Data, Expected Result, Actual Result, and Status."
+        ],
+        "correctIndex": 3,
+        "explanation": ""
+    },
+    {
+        "id": 2011,
+        "framework": "QA",
+        "question": "What is Smoke Testing?",
+        "options": [
+            "Smoke Testing verifies that the critical functionality of a new build works before detailed testing begins.",
+            "An RTM maps requirements to test cases to ensure complete test coverage.",
+            "Testing shows the presence of defects; Exhaustive testing is impossible; Early testing saves time and cost; Defects cluster together; Beware of the pesticide paradox; Testing is context dependent; Absence-of-errors is a fallacy.",
+            "Boundary Value Analysis focuses on testing values at the edges of input ranges."
+        ],
+        "correctIndex": 0,
+        "explanation": ""
+    },
+    {
+        "id": 2012,
+        "framework": "QA",
+        "question": "What is Sanity Testing?",
+        "options": [
+            "Sanity Testing validates that a specific bug fix or small change works correctly.",
+            "Positive Testing verifies the application using valid inputs.",
+            "Black Box Testing validates software functionality without knowledge of the internal code.",
+            "Yes. A company logo displayed incorrectly on the homepage may have low severity but high business priority."
+        ],
+        "correctIndex": 0,
+        "explanation": ""
+    },
+    {
+        "id": 2013,
+        "framework": "QA",
+        "question": "What is Regression Testing?",
+        "options": [
+            "Regression Testing ensures that existing functionality continues to work after code changes.",
+            "Entry Criteria are the conditions that must be satisfied before testing can begin.",
+            "Severity measures the impact of a defect on the application.",
+            "The Definition of Done specifies the criteria that must be met before a user story is considered complete."
+        ],
+        "correctIndex": 0,
+        "explanation": ""
+    },
+    {
+        "id": 2014,
+        "framework": "QA",
+        "question": "What is Retesting?",
+        "options": [
+            "Yes. A company logo displayed incorrectly on the homepage may have low severity but high business priority.",
+            "Retesting verifies that a previously reported defect has been fixed.",
+            "Testing shows the presence of defects; Exhaustive testing is impossible; Early testing saves time and cost; Defects cluster together; Beware of the pesticide paradox; Testing is context dependent; Absence-of-errors is a fallacy.",
+            "Negative Testing verifies the application using invalid or unexpected inputs."
+        ],
+        "correctIndex": 1,
+        "explanation": ""
+    },
+    {
+        "id": 2015,
+        "framework": "QA",
+        "question": "What is Functional Testing?",
+        "options": [
+            "Functional Testing verifies that the software performs according to business requirements.",
+            "Test Case ID, Description, Preconditions, Test Steps, Test Data, Expected Result, Actual Result, and Status.",
+            "Error Guessing relies on the tester's experience to identify likely defect areas.",
+            "Negative Testing verifies the application using invalid or unexpected inputs."
+        ],
+        "correctIndex": 0,
+        "explanation": ""
+    },
+    {
+        "id": 2016,
+        "framework": "QA",
+        "question": "What is Non-functional Testing?",
+        "options": [
+            "Black Box Testing validates software functionality without knowledge of the internal code.",
+            "Entry Criteria are the conditions that must be satisfied before testing can begin.",
+            "Non-functional Testing evaluates performance, security, usability, reliability, scalability, and accessibility.",
+            "Risk-Based Testing prioritizes testing efforts based on business and technical risks."
+        ],
+        "correctIndex": 2,
+        "explanation": ""
+    },
+    {
+        "id": 2017,
+        "framework": "QA",
+        "question": "What is Black Box Testing?",
+        "options": [
+            "Negative Testing verifies the application using invalid or unexpected inputs.",
+            "Black Box Testing validates software functionality without knowledge of the internal code.",
+            "Equivalence Partitioning divides input data into valid and invalid groups to reduce the number of test cases.",
+            "Boundary Value Analysis focuses on testing values at the edges of input ranges."
+        ],
+        "correctIndex": 1,
+        "explanation": ""
+    },
+    {
+        "id": 2018,
+        "framework": "QA",
+        "question": "What is White Box Testing?",
+        "options": [
+            "Verification checks whether the product is built correctly using reviews and inspections. Validation checks whether the right product is built by executing tests.",
+            "A defect is a flaw in software that causes it to behave differently from the expected result.",
+            "White Box Testing validates software based on knowledge of its internal implementation.",
+            "Regression Testing ensures that existing functionality continues to work after code changes."
+        ],
+        "correctIndex": 2,
+        "explanation": ""
+    },
+    {
+        "id": 2019,
+        "framework": "QA",
+        "question": "What is Gray Box Testing?",
+        "options": [
+            "Sanity Testing validates that a specific bug fix or small change works correctly.",
+            "Functional Testing verifies that the software performs according to business requirements.",
+            "Gray Box Testing combines knowledge of internal implementation with external functional testing.",
+            "Regression Testing ensures that existing functionality continues to work after code changes."
+        ],
+        "correctIndex": 2,
+        "explanation": ""
+    },
+    {
+        "id": 2020,
+        "framework": "QA",
+        "question": "What is Positive Testing?",
+        "options": [
+            "Priority determines how quickly a defect should be fixed.",
+            "Positive Testing verifies the application using valid inputs.",
+            "Exit Criteria define when testing activities can be completed.",
+            "Agile Testing is continuous testing performed throughout each sprint alongside development."
+        ],
+        "correctIndex": 1,
+        "explanation": ""
+    },
+    {
+        "id": 2021,
+        "framework": "QA",
+        "question": "What is Negative Testing?",
+        "options": [
+            "Repeated execution of the same tests finds fewer new defects over time, so test cases should be reviewed and updated regularly.",
+            "Exploratory Testing combines learning, test design, and execution without predefined test scripts.",
+            "A good bug report includes a clear title, environment, steps to reproduce, expected result, actual result, severity, priority, screenshots, and logs.",
+            "Negative Testing verifies the application using invalid or unexpected inputs."
+        ],
+        "correctIndex": 3,
+        "explanation": ""
+    },
+    {
+        "id": 2022,
+        "framework": "QA",
+        "question": "What is Boundary Value Analysis?",
+        "options": [
+            "Boundary Value Analysis focuses on testing values at the edges of input ranges.",
+            "QA focuses on improving development processes to prevent defects before they occur.",
+            "Entry Criteria are the conditions that must be satisfied before testing can begin.",
+            "Shift Right Testing focuses on testing and monitoring after deployment in production."
+        ],
+        "correctIndex": 0,
+        "explanation": ""
+    },
+    {
+        "id": 2023,
+        "framework": "QA",
+        "question": "What is Equivalence Partitioning?",
+        "options": [
+            "UAT is testing performed by business users to confirm the software meets business needs.",
+            "Entry Criteria are the conditions that must be satisfied before testing can begin.",
+            "Equivalence Partitioning divides input data into valid and invalid groups to reduce the number of test cases.",
+            "Shift Right Testing focuses on testing and monitoring after deployment in production."
+        ],
+        "correctIndex": 2,
+        "explanation": ""
+    },
+    {
+        "id": 2024,
+        "framework": "QA",
+        "question": "What is Decision Table Testing?",
+        "options": [
+            "Decision Table Testing is used when multiple conditions determine different outcomes.",
+            "Entry Criteria are the conditions that must be satisfied before testing can begin.",
+            "Error Guessing relies on the tester's experience to identify likely defect areas.",
+            "White Box Testing validates software based on knowledge of its internal implementation."
+        ],
+        "correctIndex": 0,
+        "explanation": ""
+    },
+    {
+        "id": 2025,
+        "framework": "QA",
+        "question": "What is State Transition Testing?",
+        "options": [
+            "Shift Left Testing moves testing activities earlier in the software development lifecycle.",
+            "State Transition Testing verifies application behavior as it moves between different states.",
+            "A Test Plan is project-specific, while a Test Strategy defines the organization's overall testing approach.",
+            "Positive Testing verifies the application using valid inputs."
+        ],
+        "correctIndex": 1,
+        "explanation": ""
+    },
+    {
+        "id": 2026,
+        "framework": "QA",
+        "question": "What is Error Guessing?",
+        "options": [
+            "Sanity Testing validates that a specific bug fix or small change works correctly.",
+            "Software testing is the process of verifying and validating that an application meets its requirements and identifying defects before release.",
+            "Error Guessing relies on the tester's experience to identify likely defect areas.",
+            "A good bug report includes a clear title, environment, steps to reproduce, expected result, actual result, severity, priority, screenshots, and logs."
+        ],
+        "correctIndex": 2,
+        "explanation": ""
+    },
+    {
+        "id": 2027,
+        "framework": "QA",
+        "question": "What is Severity?",
+        "options": [
+            "Functional Testing verifies that the software performs according to business requirements.",
+            "Agile Testing is continuous testing performed throughout each sprint alongside development.",
+            "Severity measures the impact of a defect on the application.",
+            "Exit Criteria define when testing activities can be completed."
+        ],
+        "correctIndex": 2,
+        "explanation": ""
+    },
+    {
+        "id": 2028,
+        "framework": "QA",
+        "question": "What is Priority?",
+        "options": [
+            "Boundary Value Analysis focuses on testing values at the edges of input ranges.",
+            "Black Box Testing validates software functionality without knowledge of the internal code.",
+            "Priority determines how quickly a defect should be fixed.",
+            "Requirement Analysis, Test Planning, Test Design, Environment Setup, Test Execution, Defect Reporting, and Test Closure."
+        ],
+        "correctIndex": 2,
+        "explanation": ""
+    },
+    {
+        "id": 2029,
+        "framework": "QA",
+        "question": "Can a bug have High Severity and Low Priority?",
+        "options": [
+            "Risk-Based Testing prioritizes testing efforts based on business and technical risks.",
+            "Yes. For example, a critical issue on an admin-only page may have high severity but low business priority.",
+            "UAT is testing performed by business users to confirm the software meets business needs.",
+            "Exploratory Testing combines learning, test design, and execution without predefined test scripts."
+        ],
+        "correctIndex": 1,
+        "explanation": ""
+    },
+    {
+        "id": 2030,
+        "framework": "QA",
+        "question": "Can a bug have Low Severity and High Priority?",
+        "options": [
+            "Because regression tests are repetitive, stable, time-consuming to execute manually, and provide high value in CI/CD pipelines.",
+            "Positive Testing verifies the application using valid inputs.",
+            "Error Guessing relies on the tester's experience to identify likely defect areas.",
+            "Yes. A company logo displayed incorrectly on the homepage may have low severity but high business priority."
+        ],
+        "correctIndex": 3,
+        "explanation": ""
+    },
+    {
+        "id": 2031,
+        "framework": "QA",
+        "question": "What are the stages of the Defect Life Cycle?",
+        "options": [
+            "White Box Testing validates software based on knowledge of its internal implementation.",
+            "Smoke Testing verifies that the critical functionality of a new build works before detailed testing begins.",
+            "A Test Plan is project-specific, while a Test Strategy defines the organization's overall testing approach.",
+            "New, Assigned, Open, Fixed, Retest, Closed, and Reopened."
+        ],
+        "correctIndex": 3,
+        "explanation": ""
+    },
+    {
+        "id": 2032,
+        "framework": "QA",
+        "question": "What is Entry Criteria?",
+        "options": [
+            "Acceptance Criteria define the conditions that must be met for a user story to be considered complete.",
+            "Error Guessing relies on the tester's experience to identify likely defect areas.",
+            "State Transition Testing verifies application behavior as it moves between different states.",
+            "Entry Criteria are the conditions that must be satisfied before testing can begin."
+        ],
+        "correctIndex": 3,
+        "explanation": ""
+    },
+    {
+        "id": 2033,
+        "framework": "QA",
+        "question": "What is Exit Criteria?",
+        "options": [
+            "Exit Criteria define when testing activities can be completed.",
+            "Shift Right Testing focuses on testing and monitoring after deployment in production.",
+            "State Transition Testing verifies application behavior as it moves between different states.",
+            "Test Coverage measures how much of the application or requirements have been tested."
+        ],
+        "correctIndex": 0,
+        "explanation": ""
+    },
+    {
+        "id": 2034,
+        "framework": "QA",
+        "question": "What is Static Testing?",
+        "options": [
+            "Yes. For example, a critical issue on an admin-only page may have high severity but low business priority.",
+            "Decision Table Testing is used when multiple conditions determine different outcomes.",
+            "Static Testing evaluates software without executing code, such as reviews and inspections.",
+            "State Transition Testing verifies application behavior as it moves between different states."
+        ],
+        "correctIndex": 2,
+        "explanation": ""
+    },
+    {
+        "id": 2035,
+        "framework": "QA",
+        "question": "What is Dynamic Testing?",
+        "options": [
+            "Exploratory Testing combines learning, test design, and execution without predefined test scripts.",
+            "A good bug report includes a clear title, environment, steps to reproduce, expected result, actual result, severity, priority, screenshots, and logs.",
+            "Dynamic Testing evaluates software by executing the application.",
+            "QC focuses on identifying defects in the software product through testing activities."
+        ],
+        "correctIndex": 2,
+        "explanation": ""
+    },
+    {
+        "id": 2036,
+        "framework": "QA",
+        "question": "What is Exploratory Testing?",
+        "options": [
+            "Exploratory Testing combines learning, test design, and execution without predefined test scripts.",
+            "Decision Table Testing is used when multiple conditions determine different outcomes.",
+            "Retesting verifies that a previously reported defect has been fixed.",
+            "Boundary Value Analysis focuses on testing values at the edges of input ranges."
+        ],
+        "correctIndex": 0,
+        "explanation": ""
+    },
+    {
+        "id": 2037,
+        "framework": "QA",
+        "question": "What is Risk-Based Testing?",
+        "options": [
+            "Smoke Testing verifies that the critical functionality of a new build works before detailed testing begins.",
+            "QA focuses on improving development processes to prevent defects before they occur.",
+            "Risk-Based Testing prioritizes testing efforts based on business and technical risks.",
+            "Retesting verifies that a previously reported defect has been fixed."
+        ],
+        "correctIndex": 2,
+        "explanation": ""
+    },
+    {
+        "id": 2038,
+        "framework": "QA",
+        "question": "What is Shift Left Testing?",
+        "options": [
+            "Retesting verifies that a previously reported defect has been fixed.",
+            "The Definition of Done specifies the criteria that must be met before a user story is considered complete.",
+            "Shift Left Testing moves testing activities earlier in the software development lifecycle.",
+            "Requirement Analysis, Test Planning, Test Design, Environment Setup, Test Execution, Defect Reporting, and Test Closure."
+        ],
+        "correctIndex": 2,
+        "explanation": ""
+    },
+    {
+        "id": 2039,
+        "framework": "QA",
+        "question": "What is Shift Right Testing?",
+        "options": [
+            "Exploratory Testing combines learning, test design, and execution without predefined test scripts.",
+            "Shift Right Testing focuses on testing and monitoring after deployment in production.",
+            "Priority determines how quickly a defect should be fixed.",
+            "QA focuses on improving development processes to prevent defects before they occur."
+        ],
+        "correctIndex": 1,
+        "explanation": ""
+    },
+    {
+        "id": 2040,
+        "framework": "QA",
+        "question": "What makes a good bug report?",
+        "options": [
+            "A good bug report includes a clear title, environment, steps to reproduce, expected result, actual result, severity, priority, screenshots, and logs.",
+            "Decision Table Testing is used when multiple conditions determine different outcomes.",
+            "Negative Testing verifies the application using invalid or unexpected inputs.",
+            "Sanity Testing validates that a specific bug fix or small change works correctly."
+        ],
+        "correctIndex": 0,
+        "explanation": ""
+    },
+    {
+        "id": 2041,
+        "framework": "QA",
+        "question": "What is a Requirements Traceability Matrix (RTM)?",
+        "options": [
+            "A defect is a flaw in software that causes it to behave differently from the expected result.",
+            "Error Guessing relies on the tester's experience to identify likely defect areas.",
+            "An RTM maps requirements to test cases to ensure complete test coverage.",
+            "Black Box Testing validates software functionality without knowledge of the internal code."
+        ],
+        "correctIndex": 2,
+        "explanation": ""
+    },
+    {
+        "id": 2042,
+        "framework": "QA",
+        "question": "What is Test Coverage?",
+        "options": [
+            "Error Guessing relies on the tester's experience to identify likely defect areas.",
+            "Test Coverage measures how much of the application or requirements have been tested.",
+            "Test Case ID, Description, Preconditions, Test Steps, Test Data, Expected Result, Actual Result, and Status.",
+            "A good bug report includes a clear title, environment, steps to reproduce, expected result, actual result, severity, priority, screenshots, and logs."
+        ],
+        "correctIndex": 1,
+        "explanation": ""
+    },
+    {
+        "id": 2043,
+        "framework": "QA",
+        "question": "What are Acceptance Criteria?",
+        "options": [
+            "Black Box Testing validates software functionality without knowledge of the internal code.",
+            "Acceptance Criteria define the conditions that must be met for a user story to be considered complete.",
+            "An RTM maps requirements to test cases to ensure complete test coverage.",
+            "Decision Table Testing is used when multiple conditions determine different outcomes."
+        ],
+        "correctIndex": 1,
+        "explanation": ""
+    },
+    {
+        "id": 2044,
+        "framework": "QA",
+        "question": "What is User Acceptance Testing (UAT)?",
+        "options": [
+            "UAT is testing performed by business users to confirm the software meets business needs.",
+            "A Test Scenario is a high-level testing objective. A Test Case contains detailed steps, test data, and expected results.",
+            "Risk-Based Testing prioritizes testing efforts based on business and technical risks.",
+            "Sanity Testing validates that a specific bug fix or small change works correctly."
+        ],
+        "correctIndex": 0,
+        "explanation": ""
+    },
+    {
+        "id": 2045,
+        "framework": "QA",
+        "question": "What is Agile Testing?",
+        "options": [
+            "Smoke Testing verifies that the critical functionality of a new build works before detailed testing begins.",
+            "Agile Testing is continuous testing performed throughout each sprint alongside development.",
+            "Shift Left Testing moves testing activities earlier in the software development lifecycle.",
+            "Yes. For example, a critical issue on an admin-only page may have high severity but low business priority."
+        ],
+        "correctIndex": 1,
+        "explanation": ""
+    },
+    {
+        "id": 2046,
+        "framework": "QA",
+        "question": "What is the Definition of Done (DoD)?",
+        "options": [
+            "The Definition of Done specifies the criteria that must be met before a user story is considered complete.",
+            "Software testing is the process of verifying and validating that an application meets its requirements and identifying defects before release.",
+            "Equivalence Partitioning divides input data into valid and invalid groups to reduce the number of test cases.",
+            "Repeated execution of the same tests finds fewer new defects over time, so test cases should be reviewed and updated regularly."
+        ],
+        "correctIndex": 0,
+        "explanation": ""
+    },
+    {
+        "id": 2047,
+        "framework": "QA",
+        "question": "Why should regression tests be automated?",
+        "options": [
+            "Acceptance Criteria define the conditions that must be met for a user story to be considered complete.",
+            "Smoke Testing verifies that the critical functionality of a new build works before detailed testing begins.",
+            "Because regression tests are repetitive, stable, time-consuming to execute manually, and provide high value in CI/CD pipelines.",
+            "State Transition Testing verifies application behavior as it moves between different states."
+        ],
+        "correctIndex": 2,
+        "explanation": ""
+    },
+    {
+        "id": 2048,
+        "framework": "QA",
+        "question": "What are the Seven Testing Principles?",
+        "options": [
+            "Yes. For example, a critical issue on an admin-only page may have high severity but low business priority.",
+            "Regression Testing ensures that existing functionality continues to work after code changes.",
+            "Testing shows the presence of defects; Exhaustive testing is impossible; Early testing saves time and cost; Defects cluster together; Beware of the pesticide paradox; Testing is context dependent; Absence-of-errors is a fallacy.",
+            "A good bug report includes a clear title, environment, steps to reproduce, expected result, actual result, severity, priority, screenshots, and logs."
+        ],
+        "correctIndex": 2,
+        "explanation": ""
+    },
+    {
+        "id": 2049,
+        "framework": "QA",
+        "question": "What is the Pesticide Paradox?",
+        "options": [
+            "Non-functional Testing evaluates performance, security, usability, reliability, scalability, and accessibility.",
+            "Dynamic Testing evaluates software by executing the application.",
+            "Repeated execution of the same tests finds fewer new defects over time, so test cases should be reviewed and updated regularly.",
+            "Error Guessing relies on the tester's experience to identify likely defect areas."
+        ],
+        "correctIndex": 2,
+        "explanation": ""
     }
 ]
